@@ -1,0 +1,11 @@
+{
+	"title"		:	"MrRangerLPs TinyCPPI",
+	"type"		:	"tool",
+	"tags"		:	[ "build" ],
+	"ignore"	:
+	[
+		"*.psd",
+		"*.vcproj",
+		"*.svn*"
+	]
+}

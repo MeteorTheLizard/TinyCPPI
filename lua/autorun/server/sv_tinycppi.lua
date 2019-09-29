@@ -3,7 +3,7 @@
 if SERVER then
 	local meta = FindMetaTable("Entity")
 	if not meta.CPPIGetOwner then
-		CPPIGetOwner = function()
+		function meta:CPPIGetOwner()
 			local Owner = self:GetNWEntity("my_owner")
 			if Owner then
 				return Owner

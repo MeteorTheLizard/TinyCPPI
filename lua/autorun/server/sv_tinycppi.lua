@@ -8,6 +8,8 @@ if SERVER then
 			if Owner then
 				return Owner
 			end
+
+			return
 		end
 	end
 
